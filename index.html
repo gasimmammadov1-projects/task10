@@ -407,7 +407,7 @@
         </div>
 
         <div class="copyright">
-            <p>© 2022 Hypnosis Corporation Inc. All rights reserved.</p>
+            <p>© <span id="year">2022</span> Hypnosis Corporation Inc. All rights reserved.</p>
 
             <p>Terms & Conditions &nbsp; &nbsp; Cookies &nbsp; &nbsp; Ads &nbsp; &nbsp; About us &nbsp; &nbsp; Join our team</p>
         </div>
@@ -415,5 +415,8 @@
 </footer>
 
 <!-- FOOTER -->
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>

@@ -55,7 +55,9 @@
 
 @media (max-width: 576px) {
     .container.nav-container {
-        width: 90%;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
     }
 
     h1 {
@@ -64,7 +66,9 @@
 
     .head-div {
         flex-wrap: wrap;
-        width: 90%;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
     }
 
     .editor img {
@@ -74,6 +78,9 @@
 
     .socials {
         padding-top: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 }
 
@@ -87,7 +94,9 @@
 
 @media (max-width: 576px) {
     .sec-1 .container,.container-2 {
-        width: 90%;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
     }
 
     .sec-1 img{
@@ -341,13 +350,13 @@
     }
 
     .couple {
-        justify-content:left;
-        gap: 90px;
+        justify-content: space-between;
+        gap: 10%;
         padding: 20px 0;
     }
 
     .couple div {
-        width: 20%;
+        width: 45%;
     }
 
     .categories hr {
