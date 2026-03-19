@@ -69,6 +69,16 @@
         width: 100%;
         padding: 0 20px;
         box-sizing: border-box;
+        justify-content: center;
+    }
+
+    .editor {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .editor-info {
+        text-align: center;
     }
 
     .editor img {
@@ -105,7 +115,6 @@
 
     .img1-caption {
         flex-wrap: wrap;
-        padding: 0 ;
     }
 
     .img1-caption h3{

@@ -23,13 +23,11 @@ ul {
 
 .container {
     width: 85%;
-    max-width: 1200px;
     margin: auto;
 }
 
 .container-2 {
     width: 78%;
-    max-width: 1000px;
     margin: auto;
 }
 
@@ -346,7 +344,10 @@ h1 {
     padding-bottom: 30px;
 }
 
-
+.sec-4 hr {
+    margin: 50px 0;
+    border-color: #333;
+}
 
 .sec-4 .div-1 {
     display: flex;
