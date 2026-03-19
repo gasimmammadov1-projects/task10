@@ -232,6 +232,8 @@
     .sec-4 .div-1 {
         width: 95%;
         padding: 20px 0;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     .sec-4 .div-1 h2 {
