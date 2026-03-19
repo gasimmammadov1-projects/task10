@@ -230,14 +230,16 @@
     }
 
     .sec-4 .div-1 {
-        width: 95%;
-        padding: 20px 0;
+        width: 100%;
+        padding: 40px 0;
         justify-content: center;
+        align-items: center;
         margin: 0 auto;
     }
 
     .sec-4 .div-1 h2 {
-        font-size: 66px;
+        font-size: 48px;
+        line-height: 1;
     }
 
     .sec-4 .div-1 a {
@@ -249,6 +251,7 @@
     .sec-4 .div-2 {
         flex-wrap: wrap;
         width: 100%;
+        padding: 40px 0;
     }
 
     .sec-4 .div-2 img {
@@ -283,7 +286,7 @@
 
     .other-news {
         width: 90%;
-        padding: 50px 0;
+        padding: 40px 0;
         margin: 0 auto;
     }
 
