@@ -18,7 +18,7 @@
 
     .navbar-collapse{
         width: fit-content;
-        flex: unset;
+        flex: 0 0 auto !important;
     }
 
     .navbar-collapse ul{
@@ -34,7 +34,7 @@
     .navbar-collapse {
         order: 1;
         font-size: 25px;
-        flex: unset;
+        flex: 0 0 auto !important;
     }
 
     .nav-logo {
@@ -69,7 +69,7 @@
     .head-div {
         flex-wrap: wrap;
         width: 100%;
-        padding: 20px;
+        padding: 20px !important;
         box-sizing: border-box;
         justify-content: center;
     }
